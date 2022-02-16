@@ -9,10 +9,10 @@
 -export([on_black/0, on_red/0, on_green/0, on_blue/0, on_yellow/0, on_magenta/0, on_cyan/0, on_white/0]).
 
 -export([rgb/2, on_rgb/2]).
--export([rgb/2, on_rgb/2]).
+-export([rgb/1, on_rgb/1]).
 
 -export([true/2, on_true/2]).
--export([true/2, on_true/2]).
+-export([true/1, on_true/1]).
 
 -export([reset/0, reset_bg/0]).
 
