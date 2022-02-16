@@ -43,52 +43,52 @@ yellowb(Text)    -> [colorb(?YELLOW),    Text, reset()].
 yellowb()        -> [colorb(?YELLOW)].
 
 blue(Text)       -> [color(?BLUE),       Text, reset()].
-blue(Text)       -> [color(?BLUE)].
+blue()           -> [color(?BLUE)].
 
 blueb(Text)      -> [colorb(?BLUE),      Text, reset()].
-blueb(Text)      -> [colorb(?BLUE)].
+blueb()          -> [colorb(?BLUE)].
 
 magenta(Text)    -> [color(?MAGENTA),    Text, reset()].
-magenta(Text)    -> [color(?MAGENTA)].
+magenta()        -> [color(?MAGENTA)].
 
 magentab(Text)   -> [colorb(?MAGENTA),   Text, reset()].
-magentab(Text)   -> [colorb(?MAGENTA)].
+magentab()       -> [colorb(?MAGENTA)].
 
 cyan(Text)       -> [color(?CYAN),       Text, reset()].
-cyan(Text)       -> [color(?CYAN)].
+cyan()           -> [color(?CYAN)].
 
 cyanb(Text)      -> [colorb(?CYAN),      Text, reset()].
-cyanb(Text)      -> [colorb(?CYAN)].
+cyanb()          -> [colorb(?CYAN)].
 
 white(Text)      -> [color(?WHITE),      Text, reset()].
-white(Text)      -> [color(?WHITE)].
+white()          -> [color(?WHITE)].
 
 whiteb(Text)     -> [colorb(?WHITE),     Text, reset()].
-whiteb(Text)     -> [colorb(?WHITE)].
+whiteb()         -> [colorb(?WHITE)].
 
 on_black(Text)   -> [color(?BLACK_BG),   Text, reset_bg()].
-on_black(Text)   -> [color(?BLACK_BG)].
+on_black()       -> [color(?BLACK_BG)].
 
 on_red(Text)     -> [color(?RED_BG),     Text, reset_bg()].
-on_red(Text)     -> [color(?RED_BG)].
+on_red()         -> [color(?RED_BG)].
 
 on_green(Text)   -> [color(?GREEN_BG),   Text, reset_bg()].
-on_green(Text)   -> [color(?GREEN_BG)].
+on_green()       -> [color(?GREEN_BG)].
 
 on_blue(Text)    -> [color(?BLUE_BG),    Text, reset_bg()].
-on_blue(Text)    -> [color(?BLUE_BG)].
+on_blue()        -> [color(?BLUE_BG)].
 
 on_yellow(Text)  -> [color(?YELLOW_BG),  Text, reset_bg()].
-on_yellow(Text)  -> [color(?YELLOW_BG)].
+on_yellow()      -> [color(?YELLOW_BG)].
 
 on_magenta(Text) -> [color(?MAGENTA_BG), Text, reset_bg()].
-on_magenta(Text) -> [color(?MAGENTA_BG)].
+on_magenta()     -> [color(?MAGENTA_BG)].
 
 on_cyan(Text)    -> [color(?CYAN_BG),    Text, reset_bg()].
-on_cyan(Text)    -> [color(?CYAN_BG)].
+on_cyan()        -> [color(?CYAN_BG)].
 
 on_white(Text)   -> [color(?WHITE_BG),   Text, reset_bg()].
-on_white(Text)   -> [color(?WHITE_BG)].
+on_white()       -> [color(?WHITE_BG)].
 
 rgb(RGB, Text) ->
   [?ESC, ?RGB_FG, ?SEP, rgb_color(RGB), ?END, Text, reset()].
