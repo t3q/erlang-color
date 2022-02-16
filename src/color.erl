@@ -82,7 +82,7 @@ on_yellow(Text)  -> [color(?YELLOW_BG),  Text, reset_bg()].
 on_yellow(Text)  -> [color(?YELLOW_BG)].
 
 on_magenta(Text) -> [color(?MAGENTA_BG), Text, reset_bg()].
-on_magenta(Text) -> [color(?MAGENTA_BG].
+on_magenta(Text) -> [color(?MAGENTA_BG)].
 
 on_cyan(Text)    -> [color(?CYAN_BG),    Text, reset_bg()].
 on_cyan(Text)    -> [color(?CYAN_BG)].
